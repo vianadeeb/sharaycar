@@ -1,0 +1,783 @@
+.searinput{
+    border-radius: 35px;
+   
+}
+
+    /* #nb{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #F8F9FA;
+    } */
+    #search11{
+      background-color: #F8F9FA;
+        height: 100%;
+       
+    }
+    #margleft{
+     margin-right: 30px;
+    }
+
+    #searching1{   height: 100%;
+         background-color: #F8F9FA;
+      padding-top: 13px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      /* color: #02AAEE; */
+    }
+      #selecar{
+        margin-left: 5px;
+        margin-right: 5px;
+        overflow: scroll;
+        height: 35px;
+        outline: none;
+        border-radius: 20px;
+        border: none;
+        /* background-image: linear-gradient(to right, rgb(201, 202, 202) ,rgb(201, 202, 202) ); */
+        /* color: white;   */
+    }
+    
+    
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+    
+    #dropd{
+      overflow: auto;
+      /* width: 50px; */
+      height: 200px;
+    }
+    
+    
+    #logoimg{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 50px;
+      background-image: linear-gradient(to right, rgb(73, 198, 214) , rgb(42, 54, 109));
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 4%;
+      }
+      #logoimg1{
+        height: 50px;
+        background-image: linear-gradient(to right, rgb(73, 198, 214) , rgb(42, 54, 109));
+        width: 100%;
+        padding-top: 2%;
+      padding-bottom: 4%;
+      }
+      #nb{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          background-color: #F8F9FA;
+      }
+      #search1{
+          background-color: rgb(193, 193, 194);
+          height: 100%;
+         
+      }
+      
+#imgright{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center
+}
+#searching{
+  padding-top: 13px;
+  padding-bottom: 10px;
+  background-color: rgb(193, 193, 194);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: #02AAEE;
+}
+
+#dropdown-basic1{
+  border-radius: 29px;
+  background-image: linear-gradient(to right, rgb(195, 210, 212) , rgb(115, 126, 163));
+  border: none;
+  outline: none;
+}
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+button:active,button:hover,button:focus {
+  outline: none;
+}
+   
+   
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #F8F9FA;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn{
+    background-color: #F8F9FA;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    font-size: 16px;
+    border: none; 
+    cursor: pointer;
+  }
+  #dropitem,#dropitem1,#dropitem2{
+    overflow: scroll;
+    height: 150px;
+    width: 60px;
+  }
+  #drop{
+    padding-left: 11px;
+    padding-right: 10px;
+  }
+  #selecar{
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: scroll;
+    height: 35px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(201, 202, 202) ,rgb(201, 202, 202) );
+    /* color: white;   */
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#test{
+  overflow: scroll;
+  width: 100px;
+  height: 200px;
+}
+@media (max-width: 575.98px) { 
+#searching1{
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+     align-items: flex-start;
+  /* align-items: center;
+  justify-content: center;
+  width: 100%; */
+}
+
+
+}
+    
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .dropbtn {
+    background-color: #F8F9FA;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    font-size: 12px;}
+    .searinput {
+      width: 210px;
+  }
+ }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
